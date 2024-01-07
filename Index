@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário de Atividade Física</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Calendário de Atividade Física</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Distância Corrida (km)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Insira suas informações de atividade física aqui -->
+            <tr>
+                <td>2024-01-01</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2024-01-05</td>
+                <td>8</td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+        </tbody>
+    </table>
+
+</body>
+</html>
